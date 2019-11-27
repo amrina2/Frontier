@@ -24,7 +24,7 @@ H = 10; % Deepth between the surface and the subsurface
 %%
 %%%%%%%%%%%%
 cov = covfun(sigma,theta,w); % Covariance matrix,C_p(w,w')=\sigma^2 exp[-\frac{1}{2} \frac{(w-w')^2}{\Delta^2}]
-for k=1:K ;  %K= Number of iteration and it is changable
+for k=1:K ;  %K= Number of iteration and it is changeable
     G = Gfun(x, H, z, w); %Jacobian
     for i=1:n ;
         for j=1:n ;
