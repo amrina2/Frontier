@@ -5,7 +5,7 @@
 %%%%% Purpose: This is the file where researchers need to formulate the
 %%%%% 'f' function so that we could use it in the main.m file for
 %%%%% calculating the frontier of the geophysics ill-posed nonlinear 
-%%%%% inverse problem. Here 'f' repreeseents the integrand in the forward
+%%%%% inverse problem. Here 'f' represents the integrand in the forward
 %%%%% operator.
 %%%%%%%%%%%%%%%%%%%%%%%
 %
